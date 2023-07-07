@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is Heading Section */
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(235, 235, 235);
+}
+.nav_logo{
+    margin-left: 50px;
+}
+.nav_menu{
+    display: flex;
+}
+.nav_menu li{
+    list-style-type: none;
+    padding: 25px;
+}
+.nav_menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav_menu li a:hover{
+    color: rgb(66, 66, 245);
+}
+.nav_btn{
+    margin-right: 40px;
+    padding: 15px 30px;
+    background-color: rgb(16, 16, 94);
+    color: white;
+    font-size: 19px;
+    border: none;
+    transition: .4s;
+}
+.nav_btn:hover{
+    background-color: rgb(19, 19, 211);
+}
+
+/* This is Banner Section */
+.banner{
+    height: 550px;
+    width: 100%;
+    background-image: url(./img/card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner h2{
+    position: absolute;
+    margin-top: 100px;
+    color: rgb(235, 235, 235);
+    margin-left: 100px;
+}
+.banner h1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 60px;
+}
+.banner_btn{
+    margin-right: 40px;
+    padding: 15px 30px;
+    background-color: rgb(16, 16, 94);
+    color: rgb(235, 235, 235);
+    font-size: 19px;
+    border: none;
+    margin-top: 300px;
+    margin-left: 100px;
+    transition: .4s;
+}
+.banner_btn:hover{
+    background-color: rgb(180, 171, 171);
+    color: black;
+}
